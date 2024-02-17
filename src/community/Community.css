@@ -1,0 +1,108 @@
+.Community{
+    padding: 2rem 1rem;
+}
+
+.Community > h5{
+    margin-top: 1rem;
+}
+
+.Community > h1{
+    font-size: 38px;
+    margin-bottom: 2rem;
+}
+
+.communityCard--One{
+    background: #1460FB;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+.communityCard--One > p{
+    font-size: 13px;
+    color: #fff;
+}
+
+.cc--Top{
+    display: flex;
+    margin-bottom: .8rem;
+    align-items: center;
+}
+
+.cc--Top--Left{
+    margin-right: auto;
+}
+
+.cc--Top--Left > h1{
+    font-size: 6px;
+    color: #D3E7F0;
+}
+
+.cc--Top--Left > h2{
+    font-size: 24px;
+    color: #fff;
+}
+
+.cc--Top--Left > h2 span{
+    color: #FEF402;
+}
+
+.cc--BTN{
+    background: #709CF7;
+    border: 0;
+    border-radius: 5rem;
+    color: #D3E7F0;
+    font-weight: 700;
+    font-size: 8px;
+    height: auto;
+    padding: 9px 15px;
+    align-items: center;
+}
+
+
+.communityCard--Two{
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: #D3E7F0 solid .1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.communityCard--Two > p{
+    font-size: 13px;
+    color: #000;
+}
+
+.cc--TopTwo{
+    display: flex;
+    margin-bottom: .8rem;
+    align-items: center;
+}
+
+.cc--Top--LeftTwo{
+    margin-right: auto;
+}
+
+.cc--Top--LeftTwo > h1{
+    font-size: 6px;
+    color: #A3B2B9;
+}
+
+.cc--Top--LeftTwo > h2{
+    font-size: 24px;
+    color: #000;
+}
+
+
+.cc--BTNTwo{
+    background: #30323C;
+    border: 0;
+    border-radius: 5rem;
+    color: #D3E7F0;
+    font-weight: 700;
+    font-size: 8px;
+    height: auto;
+    padding: 9px 15px;
+    align-items: center;
+}

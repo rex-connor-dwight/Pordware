@@ -1,0 +1,16 @@
+.Career--Con{
+    padding: 2rem 1rem;
+    /* text-align: center; */
+}
+
+.Career--Con > h1{
+    font-size: 38px;
+}
+
+.Career {
+    margin-bottom: 2rem;
+}
+
+.Career > img{
+    max-width: 100%;
+}

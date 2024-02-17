@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.About > img{
+    max-width: 100%;
+}
+
+.About--Con{
+    padding: 2rem 1rem;
+}
+
+.tag--default{
+    font-size: 12px;
+    color: #A3B2B9;
+    margin-bottom: 5px;
+}
+
+
+

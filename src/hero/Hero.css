@@ -1,0 +1,52 @@
+.title--deafult{
+    font-size: 40px;
+}
+
+.title--deafult span{
+    color: #1460FB;
+}
+
+.paragraph--default{
+    font-size: 15px;
+    padding: 1.5rem 0;
+}
+
+.hero > h1{
+    margin-top: 20vw;
+}
+
+.hero--CTA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.bnt-default-blue{
+    width: 100%;
+    height: 57px;
+    background-color: #1460FB;
+    color: #F8FBFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0;
+}
+
+.features{
+    width: 100%;
+    height: 57px;
+    background-color: #ffffff;
+    color: #1460FB;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-top: 1rem;
+    border: #DFE6EA .1rem solid;
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+}

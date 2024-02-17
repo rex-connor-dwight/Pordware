@@ -1,0 +1,31 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: calc(50% - 169px/2 + 0.5px);
+    top: 1rem;
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none; /* Ensures the button is not clickable when hidden */
+  }
+
+.nav--button{
+    background: #1460FB;
+    color: #FFFFFF;
+    width: 169px;
+    height: 44px;
+    border-radius: 22px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+}
+
+.navigation.scrolling {
+    opacity: 0.5; /* Adjust opacity as needed */
+  }
