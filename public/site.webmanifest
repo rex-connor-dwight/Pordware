@@ -1,0 +1,14 @@
+{
+    "name": "Pordware",
+    "short_name": "Pordware",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#0b0d16",
+    "background_color": "#0b0d16",
+    "display": "standalone"
+  }
