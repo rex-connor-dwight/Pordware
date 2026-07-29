@@ -1,6 +1,6 @@
 import { getAllPostSlugs } from "@/lib/blog";
 
-const BASE_URL = "https://pordware.com";
+const BASE_URL = "https://pordware.org";
 
 export default function sitemap() {
   const staticRoutes = [

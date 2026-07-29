@@ -4,7 +4,7 @@ export default function robots() {
         userAgent: "*",
         allow: "/",
       },
-      sitemap: "https://pordware.com/sitemap.xml",
+      sitemap: "https://pordware.org/sitemap.xml",
     };
   }
   
