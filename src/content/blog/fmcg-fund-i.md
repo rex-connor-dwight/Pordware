@@ -42,7 +42,7 @@ That's a very different diligence process from a typical seed-stage VC check, an
 
 Fund I is targeting $6,000,000, with a minimum Limited Partner commitment of $25,000. We're structuring this the way we structure everything at Pordware, with real due diligence on both sides, clear terms set out in writing before a dollar moves, and a fund life that respects the fact that our investors' time has value too.
 
-If the idea of backing the businesses that quietly show up in everyone's shopping cart, week after week, appeals to you more than the idea of waiting a decade to find out if a moonshot paid off, [we'd like to talk](/pitch).
+If the idea of backing the businesses that quietly show up in everyone's shopping cart, week after week, appeals to you more than the idea of waiting a decade to find out if a moonshot paid off, [we'd like to talk](mailto:connor@pordware.org).
 
 ---
 
