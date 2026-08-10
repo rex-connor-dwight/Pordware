@@ -15,7 +15,31 @@ export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
   try {
     const post = await getPostBySlug(slug);
-    return { title: `${post.title} — Pordware`, description: post.summary };
+    return {
+      title: `${post.title} — Pordware`,
+      description: post.summary,
+      openGraph: {
+        title: post.title,
+        description: post.summary,
+        url: `https://pordware.org/blog/${slug}`,
+        siteName: "Pordware",
+        type: "article",
+        images: [
+          {
+            url: post.image,
+            width: 1200,
+            height: 630,
+            alt: post.title,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description: post.summary,
+        images: [post.image],
+      },
+    };
   } catch {
     return { title: "Post not found — Pordware" };
   }
