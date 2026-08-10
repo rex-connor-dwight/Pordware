@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: PageProps) {
     return {
       title: `${post.title} — Pordware`,
       description: post.summary,
+      keywords: post.tags,
       openGraph: {
         title: post.title,
         description: post.summary,
@@ -76,6 +77,29 @@ export default async function BlogPostPage({ params }: PageProps) {
       </section>
 
       <ClosingCTA />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: post!.title,
+            description: post!.summary,
+            image: `https://pordware.org${post!.image}`,
+            datePublished: post!.date,
+            keywords: post!.tags.join(", "),
+            author: {
+              "@type": "Organization",
+              name: "Pordware",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Pordware",
+            },
+          }),
+        }}
+      />
     </>
   );
 }

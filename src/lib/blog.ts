@@ -12,6 +12,7 @@ export type BlogPostMeta = {
   date: string;
   summary: string;
   image: string;
+  tags: string[];
 };
 
 export function getAllPostSlugs(): string[] {
@@ -32,6 +33,7 @@ export function getAllPostsMeta(): BlogPostMeta[] {
         date: data.date as string,
         summary: data.summary as string,
         image: data.image as string,
+        tags: (data.tags as string[]) || [],
       };
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -47,6 +49,7 @@ export async function getPostBySlug(slug: string) {
     date: data.date as string,
     summary: data.summary as string,
     image: data.image as string,
+    tags: (data.tags as string[]) || [],
     contentHtml: processed.toString(),
   };
 }
