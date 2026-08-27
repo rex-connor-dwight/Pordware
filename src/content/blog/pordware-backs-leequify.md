@@ -52,9 +52,3 @@ Leequify's message to the market is simple and direct. Your land is not just pro
 
 ---
 
-*This post is provided for general informational purposes only and does not constitute an offer to sell, or a solicitation of an offer to buy, any security.*
-
-**Sources**
-
-- [Nigeria's $2.6tn property market draws investors to Africa's next growth frontier — Businessday NG](https://businessday.ng/companies/article/nigerias-2-6tn-property-market-draws-investors-to-africas-next-growth-frontier/)
-- [Residential Real Estate - Nigeria — Statista Market Forecast](https://www.statista.com/outlook/fmo/real-estate/residential-real-estate/nigeria)
