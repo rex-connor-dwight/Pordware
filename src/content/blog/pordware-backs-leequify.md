@@ -1,6 +1,6 @@
 ---
 title: "Pordware Backs Leequify With $5 Million to Unlock Property Liquidity Across Nigeria"
-date: "2026-08-10"
+date: "2026-08-27"
 summary: "Pordware's $5 million investment funds outright property acquisitions and accelerates Leequify's mission to turn land and real estate into accessible liquidity for Nigerian owners."
 image: "/blog-images/leequify-investment-cover.jpg"
 tags: ["proptech", "Nigeria real estate", "venture investment", "African startups", "property liquidity", "Leequify"]
