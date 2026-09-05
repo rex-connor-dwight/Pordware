@@ -63,7 +63,7 @@ export default function ClosingCTA() {
 
         <div style={styles.footerBottom}>
           <span style={styles.copyright}>
-            © {new Date().getFullYear()} Pordware. All rights reserved.
+            © {new Date().getFullYear()} Pordware Venture Partners Ltd. All rights reserved.
           </span>
           <span style={styles.location}>Abuja, Nigeria</span>
         </div>
