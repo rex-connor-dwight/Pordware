@@ -41,6 +41,13 @@ const companies = [
     description:
       "Revenue optimization for shortlet and Airbnb-style infrastructure through smarter, data-driven management.",
   },
+  {
+    name: "Leequify",
+    sector: "Proptech",
+    stage: "Scaling",
+    description:
+      "Turning land and property into accessible liquidity for Nigerian owners, through outright acquisition and collateral-backed loans.",
+  },
 ];
 
 export default function PortfolioGrid() {

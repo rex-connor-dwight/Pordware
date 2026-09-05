@@ -32,7 +32,8 @@ const companies = [
   { name: "Ahono", slug: "ahono" },
   { name: "Wetaulo", slug: "wetaulo" },
   { name: "Rateina", slug: "rateina" },
-  { name: "Xooreality", slug: "xooreality"},
+  { name: "Xoorelity", slug: "xoorelity" },
+  { name: "Leequify", slug: "leequify" },
 ];
 
 const GRAIN_SVG =

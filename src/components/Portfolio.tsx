@@ -30,10 +30,16 @@ const companies = [
       "Entertainment discovery and data insight, helping people find what's actually happening and worth attending.",
   },
   {
-    name: "Xooreality",
+    name: "Xoorelity",
     sector: "Proptech",
     description:
       "Revenue optimization for shortlet and Airbnb-style infrastructure through smarter, data-driven management.",
+  },
+  {
+    name: "Leequify",
+    sector: "Proptech",
+    description:
+      "Turning land and property into accessible liquidity for Nigerian owners, through outright acquisition and collateral-backed loans.",
   },
 ];
 
