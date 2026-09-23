@@ -13,6 +13,18 @@ const team = [
     bio: "Structures deals, allocates capital, and manages investor relations across the portfolio.",
     photo: "/team/zayyad-mohammed.jpg",
   },
+  {
+    name: "Emem Ansa, Esq.",
+    role: "Legal Partner",
+    bio: "Leads legal structuring, contracts, and compliance across every deal and portfolio company.",
+    photo: "/team/emem-ansa.jpg",
+  },
+  {
+    name: "Adeshewa Adeshina",
+    role: "Venture Partner Associate",
+    bio: "Supports deal sourcing, founder screening, and portfolio operations across the firm.",
+    photo: "/team/adeshewa-adeshina.jpg",
+  },
 ];
 
 export default function TeamGrid() {
@@ -98,12 +110,5 @@ const styles: Styles = {
     fontSize: "14px",
     color: "#6b6b67",
     lineHeight: 1.6,
-  },
-  networkNote: {
-    fontSize: "13px",
-    color: "#a8a8a4",
-    textAlign: "center",
-    borderTop: "1px solid #ececea",
-    paddingTop: "28px",
   },
 };
