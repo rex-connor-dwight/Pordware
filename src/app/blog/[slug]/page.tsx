@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import ClosingCTA from "@/components/ClosingCTA";
+import BlogGallery from "@/components/BlogGallery";
 import { getAllPostSlugs, getPostBySlug } from "@/lib/blog";
 import { notFound } from "next/navigation";
 
@@ -46,6 +47,14 @@ export async function generateMetadata({ params }: PageProps) {
   }
 }
 
+const GALLERY_BY_SLUG: Record<string, string[]> = {
+  "inside-the-venture-room-lagos": [
+    "/blog-images/venture-room-lagos-1.jpg",
+    "/blog-images/venture-room-lagos-2.jpg",
+    "/blog-images/venture-room-lagos-3.jpg",
+  ],
+};
+
 export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params;
 
@@ -55,6 +64,8 @@ export default async function BlogPostPage({ params }: PageProps) {
   } catch {
     notFound();
   }
+
+  const gallery = GALLERY_BY_SLUG[slug];
 
   return (
     <>
@@ -69,11 +80,13 @@ export default async function BlogPostPage({ params }: PageProps) {
       </section>
 
       <section style={styles.bodySection}>
-        <div
-          className="blog-content"
-          style={styles.bodyInner}
-          dangerouslySetInnerHTML={{ __html: post!.contentHtml }}
-        />
+        <div style={styles.bodyInner}>
+          <div
+            className="blog-content"
+            dangerouslySetInnerHTML={{ __html: post!.contentHtml }}
+          />
+          {gallery && <BlogGallery images={gallery} alt={post!.title} />}
+        </div>
       </section>
 
       <ClosingCTA />
